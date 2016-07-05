@@ -30,6 +30,7 @@
             .title {
                 font-size: 96px;
                 margin-bottom: 40px;
+                color: #FE2EC8;
             }
 
             .quote {
@@ -40,7 +41,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title"><strong>Laravel 5</strong></div>
                 <div class="quote">Welcom to my World</div>
                 <div>{{ date('Y-m-d h:i:s') }}</div>
                 <!-- <div class="quote">{{ Inspiring::quote() }}</div> -->
