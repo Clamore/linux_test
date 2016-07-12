@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::get('/issue', function () {return view('issue.index');});
+Route::get('/issue/', function () {return view('issue.index');});
+Route::get('/issue/create', function () {return view('issue.create');});
+Route::get('/issue/edit', function () {return view('issue.edit');});
+Route::get('/issue/vote', function () {return view('issue.vote');});
