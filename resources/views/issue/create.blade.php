@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h1>แจ้งปัญหา</h1>
-	<form>
+	{!! Form::open(['url' => 'issue']) !!}
 		<table style="padding:5px;">
 			<tr>
 				<td><label for="requester_detail_issue">ปัญหาที่แจ้ง :</label></td>
@@ -15,7 +15,7 @@
 				<td colspan="2"><input type="submit" value="บันทึก"></td>
 			</tr>
 		</table>	
-	</form>
+	{!! Form::close() !!}
 
 </body>
 </html>
